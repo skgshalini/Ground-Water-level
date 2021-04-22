@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="285dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/hey" />
+
+    <TextView
+        android:id="@+id/logo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Hello there, Welcome Back"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/slogan_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In to continue"
+        android:textSize="20sp" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="20dp"
+         android:layout_marginBottom="20dp"
+         android:orientation="vertical">
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneNo"
+            android:hint="Phone No"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+         <com.google.android.material.textfield.TextInputEditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             />
+        </com.google.android.material.textfield.TextInputLayout>
+         <com.google.android.material.textfield.TextInputLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/otp"
+             android:hint="Enter OTP"
+            android:visibility="gone"
+             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+             >
+             <com.google.android.material.textfield.TextInputEditText
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"/>
+         </com.google.android.material.textfield.TextInputLayout>
+         <FrameLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+             <Button
+                 android:id="@+id/sendOTP"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="5dp"
+                 android:background="#000"
+                 android:onClick="userVerification"
+                 android:text="Send OTP"
+                 android:textColor="#fff" />
+             <ProgressBar
+                 android:layout_width="35dp"
+                 android:layout_height="35dp"
+                 android:layout_marginLeft="150dp"
+                 android:id="@+id/progressbar_sendOTP"
+                 android:visibility="gone"/>
+         </FrameLayout>
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+         <Button
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+
+             android:layout_marginTop="5dp"
+             android:background="#000"
+
+             android:visibility="gone"
+             android:id="@+id/verify"
+             android:text="Verify"
+             android:onClick="otpVerification"
+             android:textColor="#fff" />
+           <ProgressBar
+               android:layout_width="35dp"
+               android:layout_height="35dp"
+               android:id="@+id/progressbar_verify"
+               android:layout_marginLeft="150dp"
+               android:visibility="gone"/>
+       </FrameLayout>
+
+         <Button
+             android:id="@+id/signup_screen"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right"
+             android:layout_margin="5dp"
+             android:background="#00000000"
+             android:elevation="0dp"
+
+             android:text="New User? SIGN UP"
+             android:textColor="#000" />
+
+</LinearLayout>
+</LinearLayout>

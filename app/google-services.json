@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "173121370889",
+    "firebase_url": "https://autodepth-f19cf-default-rtdb.firebaseio.com",
+    "project_id": "autodepth-f19cf",
+    "storage_bucket": "autodepth-f19cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173121370889:android:0d73ca36690b0b074131d8",
+        "android_client_info": {
+          "package_name": "jnu.shalini.rutag"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173121370889-l6ssm5rcsh8228hj982ji8kqqtb506pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jnu.shalini.rutag",
+            "certificate_hash": "f4d66de7fc7667ee6810700bfae9406309825e30"
+          }
+        },
+        {
+          "client_id": "173121370889-vf8f6vsb5oni43gjtackooefag7uetgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpXlp_VkO2HYs9MC3N6aaYDhZFTeq7IQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173121370889-vf8f6vsb5oni43gjtackooefag7uetgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173121370889:android:d1d161b54fec18c44131d8",
+        "android_client_info": {
+          "package_name": "jnu.shalini.rutag.groundwaterlevelmeasuringdevice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173121370889-vf8f6vsb5oni43gjtackooefag7uetgk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpXlp_VkO2HYs9MC3N6aaYDhZFTeq7IQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173121370889-vf8f6vsb5oni43gjtackooefag7uetgk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
